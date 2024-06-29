@@ -1,0 +1,62 @@
+.gift-Item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(73, 43, 12);
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.gift-Image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.item_info{
+    padding: 10px 20px;
+}
+
+.item_name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item_description{
+    font-size: 14px;
+    color: #7a7a79;
+}
+
+.item_price{
+    font-size: 22px;
+    color: rgb(73, 43, 12);
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.image-Container{
+    position: relative;
+} 
+
+.image-Container .add{
+    position: absolute;
+    right: -10px;
+    bottom: 15px;
+    cursor: pointer;
+    background-color: #e4e2df;
+    border-radius: 50px;
+}
+
+.image-Container .counter{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -10px;
+    bottom: 15px;
+    cursor: pointer;
+    background-color: #e4e2df;
+    border-radius: 50px;
+}
+
+.image-Container p{
+    font-size: 20px;
+}

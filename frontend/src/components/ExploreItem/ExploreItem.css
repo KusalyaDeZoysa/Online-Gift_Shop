@@ -1,0 +1,54 @@
+.exploreItems{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0%;
+}
+
+.exploreItems h2{
+    margin-top: 25px;
+    font-weight: 500;
+    color: rgb(73, 43, 12);
+}
+
+.exploreItems-text{
+    color: rgb(73, 43, 12);
+}
+
+.exploreCatergory-Item img{
+    width: 12vw;
+    min-width: 90px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    padding-top: 20px;
+}
+
+.exploreCatergory-Item p{
+    margin-top:10px ;
+    cursor: pointer;
+}
+
+.ItemCatergory-List{
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.ItemCatergory-List::-webkit-scrollbar{
+    display: none;
+}
+
+.exploreItems hr{
+    margin: 10px 0;
+    height: 2px;
+}
+
+.exploreCatergory-Item .active{
+    border: 2px solid rgb(73, 43, 12);
+    padding: 5px;
+}
+

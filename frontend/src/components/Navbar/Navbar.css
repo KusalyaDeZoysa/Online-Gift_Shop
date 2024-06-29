@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 70px;
+}
+
+.navbar_list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: rgb(73, 43, 12);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.signin{
+    background-color: transparent;
+    color: rgb(73, 43, 12);
+    cursor: pointer;
+    border: 1px solid rgb(145, 77, 9);
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: 3ms;
+}
+
+.signin:hover{
+    background-color: rgb(233, 216, 196);
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(73, 43, 12);
+}
+
+.cart{
+    position: relative;
+}
+
+.cart .dot{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+    background-color: rgb(173, 122, 74);
+}
+
