@@ -2,7 +2,7 @@
 
 *{
   padding: 0;
-  margin: 5px;
+  margin: 0px;
   box-sizing: border-box;
   font-family: outfit;
 }
@@ -10,6 +10,11 @@
 a{
   text-decoration: none;
   color: inherit;
+}
+
+.app{
+  width: 95%;
+  margin: auto;
 }
 
 @keyframes fadeIn {

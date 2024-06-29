@@ -4,6 +4,10 @@ import header1 from './header1.png'
 import header2 from './header2.png'
 import add_icon from './add-circle-line.png'
 import remove_icon from './remove_icon.png'
+import facebook from './facebook.png'
+import instagram from './instagram.png'
+import twitter from './twitter.png'
+import whatsapp from './whatsapp.png'
 
 import cake from './cake.png'
 import chocolate from './chocolate.png'
@@ -39,7 +43,11 @@ export const assets = {
     header1,
     header2,
     add_icon,
-    remove_icon
+    remove_icon,
+    facebook,
+    instagram,
+    twitter,
+    whatsapp
 }
 
 export const category_list = [
